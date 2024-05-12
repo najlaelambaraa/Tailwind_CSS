@@ -62,7 +62,7 @@
     </header>
     <main>
           <div class="bg-gray-100 pl-10">
-            <div class="text-center text-5xl font-bold mt-11">Our Features</div>
+            <div class="text-center text-6xl font-bold pt-14">Our Features</div>
             <div id="features" class="grid md:grid-cols-4 gap-4">
 
             </div>
@@ -89,37 +89,37 @@
               `;
             });
           </script>
-        <div class="bg-purple text-white font-sans h-full flex flex-col justify-center items-center p-10">
-			<div class="bg-black text-white rounded-full p-6 w-20 py-11 flex items-center justify-center text-3xl font-bold">go !</div>
+        <div class="bg-purple text-white font-sans h-full flex flex-col justify-center items-center p-4 sm:p-10">
+			<div class="bg-black text-white rounded-full p-6 w-50 py-6 sm:py-11 flex items-center justify-center text-4xl sm:text-7xl font-bold">go!</div>
 			<div class="pt-9 w-full">
-				<div class="flex justify-center mb-4 space-x-4">
-					<div class="flex flex-col border-current border-2 rounded-lg pr-36 pl-5 m-1.5">
-						<div class="text-4xl font-bold mb-4">136</div>
-						<div class="flex flex-col space-y-2">
+				<div class="flex flex-col sm:flex-row justify-center mb-4 space-x-0 sm:space-x-4">
+					<div class="card">
+						<div class="text-4xl sm:text-6xl font-bold mb-4">136</div>
+						<div class="card-text">
 							<div class="text-lg">Unique</div>
 							<div class="text-lg">Colors</div>
 						</div>
 					</div>
 		
-					<div class="flex flex-col border-current border-2 rounded-lg pr-36 pl-5 m-1.5">
-						<div class="text-4xl font-bold mb-4">117</div>
-						<div class="flex flex-col space-y-2">
+					<div class="card">
+						<div class="text-4xl sm:text-6xl font-bold mb-4">117</div>
+						<div class="card-text">
 							<div class="text-lg">Supers</div>
 							<div class="text-lg">Professeurs</div>
 						</div>
 					</div>
 		
-					<div class="flex flex-col items-center border-current border-2 rounded-lg pr-36 pl-5 m-1.5">
-						<div class="text-4xl font-bold mb-4">734</div>
-						<div class="flex flex-col space-y-2 items-center">
+					<div class="card">
+						<div class="text-4xl sm:text-6xl font-bold mb-4 pl-5">734</div>
+						<div class="card-text">
 							<div class="text-lg">Etudiante.es</div>
 							<div class="text-lg">Satisfaits.es</div>
 						</div>
 					</div>
 		
-					<div class="flex flex-col items-center border-current border-2 rounded-lg pr-36 pl-5 m-1.5">
-						<div class="text-4xl font-bold mb-4">346</div>
-						<div class="flex flex-col space-y-2 items-center">
+					<div class="card">
+						<div class="text-4xl sm:text-6xl font-bold mb-4">346</div>
+						<div class="card-text">
 							<div class="text-lg">Diplômes</div>
 							<div class="text-lg">Obtenus</div>
 						</div>
@@ -129,49 +129,51 @@
 		</div>
 		
     </main>
-    <footer class="bg-black text-white">
-        <div class="py-5 px-24 grid grid-cols-3 md:grid-cols-3">
-            <div class="space-y-3">
-                <p>+1(234)567-89-01</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="col-span-1">
-                <p class="font-bold">Copyright 2024 B1 MDS</p>
-                <p>All Rights Reserved</p>
-            </div>
-            <div class="flex justify-between">
-                <div>
-                    <h3 class="font-bold mb-2">Features</h3>
-                    <ul>
-                        <li>About</li>
-                        <li>Features</li>
-                        <li>Pricing</li>
-                        <li>Team</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="font-bold mb-2">Infos</h3>
-                    <ul>
-                        <li>About</li>
-                        <li>Features</li>
-                        <li>Pricing</li>
-                        <li>Team</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-		<div class="flex-initial border-t-2 border-gray-500 w-full my-4"></div> 
-		<div class="flex justify-between py-5 px-24 grid grid-cols-3 gap-10">
-        <div>
-            <p> © Copyright 2024 </p>
-        </div>
-        <div>
-            <p> supermail@gmail.com</p>
-        </div>
-        <div>
-            <p>Najlae LAMBARAA</p>
-        </div>
-        </div>
-    </footer>
+	<footer class="bg-black text-white md:text-xl sm:text-sm">
+		<div class="pb-36 pt-9 px-4 sm:px-24 grid grid-cols-1 sm:grid-cols-3 text-center sm:text-left">
+			<div class="space-y-3 mb-6 sm:mb-0">
+				<p>+1(234)567-89-01</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="col-span-1">
+				<p class="font-bold">Copyright 2024 B1 MDS</p>
+				<p>All Rights Reserved</p>
+			</div>
+			<div class="flex flex-col sm:flex-row justify-between text-center sm:text-left pl-10">
+				<div class="mb-6 sm:mb-0">
+					<h3 class="font-bold mb-2">Features</h3>
+					<ul class="list-inside">
+						<li>About</li>
+						<li>Features</li>
+						<li>Pricing</li>
+						<li>Team</li>
+					</ul>
+				</div>
+				<div>
+					<h3 class="font-bold mb-2">Infos</h3>
+					<ul class="list-inside">
+						<li>About</li>
+						<li>Features</li>
+						<li>Pricing</li>
+						<li>Team</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="flex-initial border-t-2 border-gray-500 md:w-[170px] px-5 my-4 sm:w-full"></div>
+		<div class="flex flex-col sm:flex-row justify-between py-8 px-4 sm:px-24 text-center">
+			<div class="mb-4 sm:mb-0">
+				<p> © Copyright 2024 </p>
+			</div>
+			<div class="mb-4 sm:mb-0">
+				<p> supermail@gmail.com</p>
+			</div>
+			<div>
+				<p>Najlae LAMBARAA</p>
+			</div>
+		</div>
+	</footer>
+	
+	
 </body>
 </html>
