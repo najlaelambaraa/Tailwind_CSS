@@ -19,7 +19,7 @@
 	--blue: '#90e0ef';
 }
 .card {
-    @apply flex flex-col items-center border-current border-2 rounded-lg p-5 m-1.5 py-4 sm:pr-36 sm:pl-5 sm:py-8 w-full sm:w-auto;
+    @apply flex flex-col items-center border-current border-2 rounded-xl p-5 m-1.5 py-4 sm:pr-36 sm:pl-5 sm:py-8 w-full sm:w-auto;
 }
 
 .card-text {
