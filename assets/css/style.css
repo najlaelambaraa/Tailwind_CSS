@@ -23,7 +23,7 @@
 }
 
 .card-text {
-    @apply flex flex-col space-y-1 items-center;
+    @apply flex flex-col space-y-1 sm:items-start;
 }
 
 
